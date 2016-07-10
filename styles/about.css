@@ -11,6 +11,11 @@ div {
   margin-top: 30px
 }
 
+div a {
+  padding-right: 8px; 
+  padding-left: 8px;
+}
+
 table {
   margin-left: auto;
   margin-right: auto;
