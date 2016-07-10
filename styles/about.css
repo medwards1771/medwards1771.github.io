@@ -1,3 +1,7 @@
+body {
+  font-family: Geneva,Tahoma,Verdana,sans-serif;
+}
+
 div {
   text-align: right;
 /*  border: dotted;
