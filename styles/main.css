@@ -1,4 +1,63 @@
-img.background {
-  display: block;
-  margin-left: 35px;
+body {
+  background-image: 
+    url("../images/purple_soundwave.png");
+  background-size: 700px 600px;
+  background-repeat: repeat-x;
+  background-position: 0px 200px;
+  background-color: white;
+}
+
+.centered {
+  position: fixed;
+  top: 35%;
+  left: 40%;
+  transform: translate(-30%, -30%);
+}
+
+p {
+  font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+button {
+    background-color: white;
+    border: dashed;
+    border-width: .11em;
+    border-radius: .5em;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+button:focus {
+  outline:0;
+}
+
+button.about{
+    color: crimson;
+}
+
+button.talks{
+    color: darkorange;
+}
+
+button.projects{
+    color: seagreen;
+}
+
+button.blog{
+    color: navy;
+}
+
+button.fun{
+    color: plum;
+}
+
+
+button:hover {
+    color: gold;
 }
