@@ -1,0 +1,19 @@
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
+td {
+  border: 2px solid dimgray;
+  height: 75px;
+  width: 75px;
+  border-radius: .3em;
+}
+
+td#blue {
+  background-color: skyblue;
+}
+
+td#yellow {
+  background-color: gold;
+}
