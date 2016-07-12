@@ -25,6 +25,7 @@ button {
     border-width: .11em;
     border-radius: .5em;
     padding: 15px 32px;
+    margin-right: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -54,11 +55,11 @@ button.talks:hover{
   background-color: orange;
 }
 
-button.projects {
+button.code {
   color: seagreen;
 }
 
-button.projects:hover{
+button.code:hover{
   background-color: darkgreen;
 }
 
@@ -70,11 +71,11 @@ button.blog:hover{
   background-color: navy;
 }
 
-button.fun {
+button.resume {
   color: purple;
 }
 
-button.fun:hover{
+button.resume:hover{
   background-color: plum;
 }
 
