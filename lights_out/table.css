@@ -1,7 +1,10 @@
+body {
+  font-family: Geneva,Tahoma,Verdana,sans-serif;
+}
+
 p {
   text-align: center;
   font-size: 25px;
-  font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
 }
 
 td {
