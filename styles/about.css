@@ -30,12 +30,17 @@ table img:hover {
   opacity: 1.0;
 }
 
-table img.long {
+table img.frizzle {
   width: 100px;
   height: 200px;
 }
 
-table img.sandi {
+table img.tina {
+  width: 190px;
+  height: 190px;
+}
+
+table img.sandi, .tina {
     border-radius: 50%;
 }
 
