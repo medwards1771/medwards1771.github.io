@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "FIRSTPOST"
+date:   2024-04-22
+---
+
 ## Intro
 Hi hi hello! First post of new blog. To overcome my "first post has to be great" anxiety, I'm shipping this good enough post on `etc` directories. 
 
