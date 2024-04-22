@@ -22,8 +22,9 @@ title: Meredith Edwards
 email: meredith.edwards1771@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog for collecting my thoughts and learnings.
-baseurl: "/meredithblog" # the subpath of your site, e.g. /blog
+domain: medwards1771.github.io
 url: "https://medwards1771.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/meredithblog/" # the subpath of your site, e.g. /blog
 github_username:  medwards1771
 
 # Build settings
