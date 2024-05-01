@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "FIRSTPOST"
-date:   2024-04-22 14:12:00 -0000
+title:  "What is the etc directory?"
+date:   2024-05-01 14:12:00 -0000
 ---
 
 ## Intro
