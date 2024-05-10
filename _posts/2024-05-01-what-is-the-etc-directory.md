@@ -12,7 +12,9 @@ Hi hi hello! First post of new blog. To overcome my "first post has to be great"
 
 Generally speaking, `etc` directories are home to configuration files. The [Filesystem Hierarchy Standard (FHS)](https://www.pathname.com/fhs/pub/fhs-2.3.html#ETCHOSTSPECIFICSYSTEMCONFIGURATION), a doc written for UNIX-like operating systems, declares:
 
-    The /etc hierarchy contains configuration files. A "configuration file" is a local file used to control the operation of a program; it must be static and cannot be an executable binary.
+    The /etc hierarchy contains configuration files.
+    A "configuration file" is a local file used to control the operation of a program;
+    it must be static and cannot be an executable binary.
 
 ## `etc` on Mac OS
 
@@ -25,7 +27,8 @@ On Mac OS, there are two `etc` directories (that I know about), both in "hidden"
 
 The top-level `/etc` directory contains configuration files used exclusively by your OS (operation system). Take the `/etc/ssh` directory, for example. If you attempt to make a change to the `/etc/ssh/ssh_config` file, you should see an error like:
 
-    Failed to save 'ssh_config': Insufficient permissions. Select 'Retry as Sudo' to retry as superuser."
+    Failed to save 'ssh_config': Insufficient permissions.
+    Select 'Retry as Sudo' to retry as superuser."
 
 While you could use `sudo` to get past this error, the error is there to gently reinforce the file standard. Rather than editing `/etc/ssh/ssh_config` directly, you'll want to configure your ssh setup in the `.ssh/` directory at `Users/<your-username>/.ssh`.
 
