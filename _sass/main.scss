@@ -1,0 +1,28 @@
+// Width of the content area
+$content-width:    1000px !default;
+$image-content-width: 3000px !default;
+$spacing-unit:     30px !default;
+
+img {
+    width: 250px;
+    height: 166px;
+    padding: 5px;
+}
+
+.image-wrapper {
+    max-width: -webkit-calc(#{$image-content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$image-content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    @extend %clearfix;
+}
+
+.iteration {
+    display: flex;
+}
+
+// .last > img {
+//     width:
+//     height:
+// }
