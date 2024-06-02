@@ -200,6 +200,6 @@ More to the heart of the issue, though, is that using LeetCode-like (data struct
 ------------------
 <br>
 
-[^1]: I recently deleted all my old solutions to Exercism's Ruby track after conceding to an urge to burn it all down and start fresh. You can check out my solutions to Ruby Exercism problems [here](https://github.com/medwards1771/exercism/tree/main/ruby).
+[^1]: You can check out my solutions and work in progress for Exercism's Ruby track [here](https://github.com/medwards1771/exercism/tree/main/ruby).
 
 [^2]: Ideally I wouldn't feel the need to prove to myself that I'm smart enough or good enough by showing I can solve LeetCode-esque problems. I have compassion for the part of me that believes doing so qualifies me as "smart enough," though, because this is the message sent to developers by companies who use these problems to screen candidates.
