@@ -8,7 +8,7 @@ date:   2024-09-11
 
 SSH (secure shell protocol) first appeared in 1995, designed by Finn Tatu Ylönen as a secure alternative to Telnet and various Unix shell protocols. SSH's selling point was that it introduced encryption as part of remote server authentication.
 
-The most profilic implementation of SSH is [OpenSSH](https://www.openssh.com/). OpenSSH is a derivative of Tatu Ylönen's original ssh 1.2.12 release. The OpenSSH suite of tools includes command line utilities like `ssh`, `ssh-keygen`, and `ssh-agent`. The [OpenBSD Project](https://www.openbsd.org/) builds and maintains OpenSSH as open-source software, despite its potential to make millions (or billions) through licensing fees.
+The most prolific implementation of SSH is [OpenSSH](https://www.openssh.com/). OpenSSH is a derivative of Tatu Ylönen's original ssh 1.2.12 release. The OpenSSH suite of tools includes command line utilities like `ssh`, `ssh-keygen`, and `ssh-agent`. The [OpenBSD Project](https://www.openbsd.org/) builds and maintains OpenSSH as open-source software, despite its potential to make millions (or billions) through licensing fees.
 
 ## Some context
 
@@ -18,7 +18,7 @@ A common use case for SSH is authenticating to a remote server using private-pub
 
 ### How to create a key pair
 
-You can create a key pair with `ssh-keygen`. You'll need to specify a key alogorithm type with the `-t` flag and a filepath with the `-f` flag:
+You can create a key pair with `ssh-keygen`. You'll need to specify a key algorithm type with the `-t` flag and a filepath with the `-f` flag:
 
 ```bash
 ssh-keygen -t ed25519 -f "/Users/<username>/.ssh/ubuntu-ec2-instance"
