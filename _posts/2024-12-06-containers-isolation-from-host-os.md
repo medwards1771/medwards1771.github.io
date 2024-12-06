@@ -48,11 +48,11 @@ This uses an official Python-alpine image as its base image, then installs app r
 
 Notice that unlike before, connecting to your server and running `python` or `pip` from your server's terminal now returns an error. You have to attach to the running container's terminal with `docker exec -it <container-name> sh` to get access to these executables. **This is a great straightforward look into how Docker isolates dependencies from the host server's OS.**
 
-## Keeping the app up and running
+## Running the app
 
 ### Without container management
 
-Without a container management tool, you'll need to configure your own system-level process using a tool like [systemd](https://systemd.io/).
+Without a container management tool, you'll need to configure your own system-level process using a tool like [systemd](https://systemd.io/) in order to keep your application up and running.
 
 You tell `systemd` how and when to run your web app by adding a new `.service` file to the `/etc/systemd/system/` directory. Here's an example `.service` file for a Flask web app:
 
