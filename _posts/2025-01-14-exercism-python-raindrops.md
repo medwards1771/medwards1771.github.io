@@ -156,6 +156,6 @@ Defining and using class the custom class `RaindropNumber` doesn't change anythi
 
 ## Takeaways
 
-- I like the first solution best because it's not try to be clever. It gets the job done simply, efficiently, and is dead easy to understand.
+- I like the first solution best because it gets the job done simply, efficiently, and is dead easy to understand.
 - This exercise is uses "catchall" logic. For all inputs that match the given criteria (are a factor of 3, 5, or 7), do `x`. For everything else (the catchall), do `y`.
 - Requiring the response to account for all possible factors mandates that every input go through a minimum of three branches of logic -- one for each possible factor.
