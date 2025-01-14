@@ -34,7 +34,7 @@ def convert(number):
     # returns raindrop sound
 ```
 
-## Journey to first solution
+## Solution Journey
 
 ### Simplest, most straightforward tests
 
@@ -108,7 +108,7 @@ def convert(number):
 
 This solution makes it fairly clear that there's a relationship between the factors 3, 5, and 7 and certain sounds, that we're checking for each factor in order to construct a composite value, and numbers without factors of 3, 5, or 7 get converted to strings. Silence is not a valid response.
 
-## Small adjustment
+### Small adjustment
 
 You could also go back to the dict idea and use that data structure to make explicit the relationship between the numbers 3, 5, 7 and their raindrop sounds. That would look like:
 
@@ -129,7 +129,7 @@ def convert(number):
     return composite_sound or str(number)
 ```
 
-## Solving using classes
+### Solving using classes
 
 You could even define a custom class to solve the problem:
 
@@ -152,11 +152,10 @@ def convert(number):
     return RaindropNumber.sound(number)
 ```
 
-Defining and using class the custom class RaindropNumber doesn't change anything about the solution logic; it just delegates the convert function to a RaindropNumber class method. Calling RaindropNumber.sound(number) does add a shade of meaning; it's more descriptive than convert(number). The class isn't used as a template to create multiple raindrop_number objects though (thus no need for instantiation); it's really just a descriptive container for the solution logic.
+Defining and using class the custom class `RaindropNumber` doesn't change anything about the solution logic; it just delegates the convert function to a `RaindropNumber` class method. Calling `RaindropNumber.sound(number)` does add a shade of meaning though. It's more descriptive than `convert(number)`. The class isn't used as a template to create multiple `raindrop_number` objects, so no need for instantiation. Ultimately it's just a descriptive container for the solution logic.
 
 ## Takeaways
 
-- I like the first solution best because it is simple, efficient, and easy to understand.
-- This exercise is uses catchall logic:
-  - For all inputs that match the given criteria (are a factor of 3, 5, or 7), do `x`. For everything else (the catchall part), do `y`.
+- I like the first solution best because it's not try to be clever. It gets the job done simply, efficiently, and is dead easy to understand.
+- This exercise is uses "catchall" logic. For all inputs that match the given criteria (are a factor of 3, 5, or 7), do `x`. For everything else (the catchall), do `y`.
 - Requiring the response to account for all possible factors mandates that every input go through a minimum of three branches of logic -- one for each possible factor.
